@@ -1,5 +1,5 @@
 # Web-Project
-## Etch-a-sketch
+## ETCH-A-SKETCH
 A simple Etch-a-Sketch application built with HTML, CSS, and JavaScript.
 
 ## PROJECT DESCRIPTION 
@@ -28,7 +28,7 @@ To use the Etch-a-Sketch application, follow these steps:
 - Toggle gridlines to show/hide the grid.
 - Adjustable grid size using the slider.
 
-## Dependencies
+## DEPENDENCIES
 
 The Etch-a-Sketch application relies on the following files:
 
