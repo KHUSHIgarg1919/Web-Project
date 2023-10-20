@@ -1,0 +1,143 @@
+header{
+    text-align: center;
+    padding-top: 130px;
+    font-size: 30px;
+    text-transform: uppercase;
+    height: 45vh;
+    color: #c03737;
+    background-image: url(colors.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+}
+
+#heading:hover{
+    color:#946b6b;
+}
+
+#about{
+    font-size: 20px;
+}
+
+#button1{
+    font-size: 25px;
+    color:rgb(192 97 39);
+    font-weight: 200;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+}
+
+/*sketch.html page*/
+#main-body{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    background-color: #d1cad3;
+    text-align: center;
+}
+
+.grid {
+    background-color: #fff;
+    border: 3px double #010a01;
+    min-height: 500px;
+    min-width: 500px;
+    max-height: 500px;
+    max-width: 500px;
+    height: 500px;
+    width: 500px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;                                /*gap between two divs */
+    margin-bottom: 40px;
+}
+
+.control-panel {
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; 
+    align-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    border: 5px double #6f8fdc;
+    padding: 20px;
+    width: 200px;
+    height: 500px;
+}
+
+h2 {
+    margin: 16px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.color{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin: 16px;
+}
+
+.grid-line{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.color label{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#color-picker{
+    border: none;
+    background-color: transparent;
+    padding: 0px;
+}
+
+input:focus-visible {
+    outline-offset: 0px;
+    outline: none;
+}
+
+.rainbow {
+    border: 3px solid #6ef880;
+}
+
+.eraser {
+    border: 3px solid #ffdb4e;
+}
+
+.clear {
+    border: 3px solid #FF5161;
+}
+
+#but{
+    opacity: 0.6;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#but:hover {
+    opacity: 1;
+}

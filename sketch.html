@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draw</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="main-body">
+    <h1>Show your creativity...</h1><br>
+    <div class="content">
+        <div class="control-panel">
+            <h2>Controls</h2>
+            
+            <div class="color">
+                <label for="color-picker">Color:</label>
+                <input type="color" value="#ff0000" id="color-picker" />
+            </div>
+
+            <button class="rainbow" id="but">Rainbow mode</button>
+            <button class="eraser" id="but">Eraser</button>
+            <button class="clear" id="but">Clear</button>
+
+            <div class="grid-line">
+                <label for="gridlines-toggle">Toggle Gridlines</label>
+                <input type="checkbox" id="gridlines-toggle" checked>
+            </div>
+
+            <div class="slider">
+                <label for="box-slider"><span class="box-count">16</span>x<span class="box-count">16</span></label>
+                <input type="range" min="1" max="100" value="16" id="box-slider">
+            </div>
+        </div>
+
+        <div class="grid"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
